@@ -1,0 +1,48 @@
+/*-------cardedit--------*/
+.card__container{
+    width:91%;
+    position: absolute;
+    display: inline-flex;
+    background-color: #f3f3f3;
+}
+.cardedit{
+    width: 30%;
+    display:inline-block;
+    background-color: #fff;
+    height: 100%;
+    margin-left: 30px;
+}
+.cardedit__button p{
+    padding: 4px 15px;
+    display: inline-block;
+    border:1px solid #e2e2e2;
+    margin:20px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    color:#333;
+}
+.cardedit__button p:hover{
+     border:1px solid $combo-color;
+     color: #000
+}
+.textarea{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #666;
+    width: 95%;
+    height: 650px;
+    padding: 30px;
+
+}
+.cardview{
+    width: 50%;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 50px;
+    overflow-wrap: break-word;
+
+}
+.cardview__text{
+    color:#555;
+}
