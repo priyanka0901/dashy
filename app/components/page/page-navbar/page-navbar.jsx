@@ -1,8 +1,9 @@
 'use strict';
 
 import React from 'react';
+import {Link} from 'react-router';
 
-const Navbar = React.createClass({
+const PageNavbar = React.createClass({
     getInitialState: function(){
     return {display: "none"}
   },
@@ -15,9 +16,9 @@ const Navbar = React.createClass({
     render: function() {
         return (
             <div>
-            <div className="navbar navbar__grey">
-                <p className="navbar__logo"><span className="navbar__vr">vr</span> 
-                     STUDI0
+            <div className="navbar">
+                <p><Link to="/" className="navbar__logo"><span className="navbar__vr">vr</span> 
+                     STUDI0 </Link>
                 </p>
                 <ul className="navbar__item">
                     <li>
@@ -53,4 +54,4 @@ const Navbar = React.createClass({
     }
 });
 
-export default Navbar;
+export default PageNavbar;

@@ -1,0 +1,67 @@
+.landing-page {
+    height: 100%;
+    width: 100%;
+    background-color:$landing-page;
+    padding: 20px 50px;
+}
+
+.landing-page__heading {
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.landing-page__filter{
+    display: inline-block;
+    float: right;
+    letter-spacing: 0.3px;
+}
+.landing-page__tile{
+    height: 350px;
+    background: #fff;
+    margin:40px;
+    padding: 15px;
+    overflow: hidden;
+}
+.tile__image{
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+.tile__appname{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.tile__username{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    float: right;
+}
+.tile__username_img{
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.tile__options p{
+    display: inline-block;
+}
+.tile__options_stats{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+
+    li{
+        display: inline-block;
+        padding: 0 6px;
+
+        img{
+            height: 18px;
+        }
+    }
+}
