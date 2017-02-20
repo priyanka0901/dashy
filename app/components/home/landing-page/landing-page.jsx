@@ -32,17 +32,16 @@ const LandingPage= React.createClass({
                                 <img src="../assets/images/share.svg" />
                                 <p className="options__stats_num">6</p>
                             </li>
-                           
                             <li> 
                                 <img src="../assets/images/likes.svg" />
                                 <p className="options__stats_num">12</p>
                             </li>
                         </ul>
                     </div>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
         );
     } 
 });
