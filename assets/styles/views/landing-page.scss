@@ -17,10 +17,9 @@
     letter-spacing: 0.3px;
 }
 .landing-page__tile{
-    height: 350px;
     background: #fff;
     margin:40px;
-    padding: 15px;
+    padding: 15px 15px 5px 15px;
     overflow: hidden;
 }
 .tile__image{
@@ -28,6 +27,10 @@
     background-size: cover;
     height: 250px;
     width: 100%;
+}
+.tile__appinfo{
+    clear: both;
+    margin-top: 6px;
 }
 .tile__appname{
     display: inline-block;
@@ -39,6 +42,9 @@
     text-transform: capitalize;
     font-size: 14px;
     float: right;
+    position: relative;
+    top: 5px;
+    right: 10px;
 }
 .tile__username_img{
     display: inline-block;
@@ -47,9 +53,18 @@
     width: 30px;
     float: right;
 }
-
+.tile__options{
+    clear: both;
+    margin-top: 20px;
+}
 .tile__options p{
     display: inline-block;
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+}
+.options__edit{
+    color:$link-color;
 }
 .tile__options_stats{
     display: inline-block;
@@ -58,7 +73,7 @@
 
     li{
         display: inline-block;
-        padding: 0 6px;
+        padding: 0 10px;
 
         img{
             height: 18px;

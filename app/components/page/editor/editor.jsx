@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Card = React.createClass({
+const Editor = React.createClass({
     getInitialState: function () {
     return { userInput: ''  };
   },
@@ -40,4 +40,4 @@ const Card = React.createClass({
     }
 });
 
-export default Card;
+export default Editor;
