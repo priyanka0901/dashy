@@ -13,7 +13,7 @@ const HomeNavbar= React.createClass({
                 <ul className="navbar__item">
                     <li>
                         <img className="navbar__icon" src="../assets/images/newapp.svg" />
-                        <Link to="/new" className="navbar__link">new app</Link> 
+                        <Link to="/new" className="navbar__link" onClick={this.props.onPublish}>new app</Link> 
                     </li>
                     <li><Link to="#" className="navbar__link">Login </Link></li>
                     <li><Link to="#" className="navbar__link">signup</Link></li>

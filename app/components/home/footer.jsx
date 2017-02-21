@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-import { render } from 'react-dom';
 
 const Footer= React.createClass({
         render: function() {

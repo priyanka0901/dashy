@@ -3,10 +3,14 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router';
+<<<<<<< HEAD
 import HomeLayout from './components/home/home.jsx';
 import NewLayout from './components/new/new.jsx';
 import EditLayout from './components/edit/edit.jsx';
 import ViewLayout from './components/viewapp/viewapp.jsx';
+=======
+import {HomeLayout, PageLayout} from './components/homepage.jsx';
+>>>>>>> test
 
 const Layout = React.createClass({
     render: function() {

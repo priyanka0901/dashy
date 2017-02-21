@@ -59,12 +59,16 @@
 }
 .tile__options p{
     display: inline-block;
+<<<<<<< HEAD
     position: relative;
     bottom: 4px;
     left: 5px;
 }
 .options__edit{
     color:$link-color;
+=======
+    vertical-align: -webkit-baseline-middle;
+>>>>>>> test
 }
 .tile__options_stats{
     display: inline-block;
@@ -77,6 +81,8 @@
 
         img{
             height: 18px;
+            display: inline-block;
+            vertical-align: -webkit-baseline-middle;
         }
     }
 }
