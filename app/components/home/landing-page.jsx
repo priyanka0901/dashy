@@ -19,7 +19,7 @@ const LandingPage= React.createClass({
                         <p className="tile__username">Alen Paull</p>
                     </div>
                     <div className="tile__options">
-                        <p>Edit</p>
+                        <button>Edit</button>
                         <ul className="tile__options_stats">
                             <li>
                                 <img src="../assets/images/views.svg" />
@@ -29,7 +29,6 @@ const LandingPage= React.createClass({
                                 <img src="../assets/images/share.svg" />
                                 <p className="options__stats_num">6</p>
                             </li>
-                           
                             <li> 
                                 <img src="../assets/images/likes.svg" />
                                 <p className="options__stats_num">12</p>

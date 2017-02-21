@@ -3,8 +3,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router';
-import HomeLayout from './components/home/home.jsx';
-import PageLayout from './components/page/page.jsx';
+import {HomeLayout, PageLayout} from './components/homepage.jsx';
 
 const Layout = React.createClass({
     render: function() {

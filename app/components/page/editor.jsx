@@ -2,11 +2,10 @@
 
 import React from 'react';
 
-const Card = React.createClass({
+const Editor = React.createClass({
     getInitialState: function () {
     return { userInput: ''  };
   },
-
    handleUserInput: function (e) {
     this.setState({
       userInput: e.target.value
@@ -40,4 +39,5 @@ const Card = React.createClass({
     }
 });
 
-export default Card;
+export default Editor;
+
