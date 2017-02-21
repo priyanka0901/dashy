@@ -13,7 +13,7 @@ const Sidebar= React.createClass({
                 </li>
                 <li>
                     <p><img className="sidebar__img" src="../assets/images/publish.svg" /></p>
-                        <h4>publish</h4>
+                        <h4>{this.props.dynamicButton}</h4>
                 </li>
                 <li>
                     <p><img className="sidebar__img" src="../assets/images/share.svg" /></p>

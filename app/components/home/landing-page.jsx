@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { render } from 'react-dom';
+import {Link} from 'react-router';
 
 const LandingPage= React.createClass({
         render: function() {
@@ -12,14 +13,16 @@ const LandingPage= React.createClass({
             <div className="pure-g">
                 <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="landing-page__tile">
-                    <img className="tile__image" src="../assets/images/3dbox.jpeg" />
+                    <Link to="/new">
+                        <img onClick={this.props.onView} className="tile__image" src="../assets/images/3dbox.jpeg" />
+                    </Link>
                     <div className="tile__appinfo">
                         <p className="tile__appname">webVr aframe</p>
                         <img className="tile__username_img" src="../assets/images/men.jpeg" />
                         <p className="tile__username">Alen Paull</p>
                     </div>
                     <div className="tile__options">
-                        <button>Edit</button>
+                        <p onClick={this.props.onClick}><Link to="/new">Edit</Link></p>
                         <ul className="tile__options_stats">
                             <li>
                                 <img src="../assets/images/views.svg" />

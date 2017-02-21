@@ -50,6 +50,7 @@
 
 .tile__options p{
     display: inline-block;
+    vertical-align: -webkit-baseline-middle;
 }
 .tile__options_stats{
     display: inline-block;
@@ -62,6 +63,8 @@
 
         img{
             height: 18px;
+            display: inline-block;
+            vertical-align: -webkit-baseline-middle;
         }
     }
 }

@@ -9,12 +9,22 @@ import Editor from './page/editor.jsx';
 import PageNavbar from './page/page-navbar.jsx';
 import Sidebar from './page/sidebar.jsx';
 
+var dynamicButton = '';
 const HomeLayout = React.createClass({
+    handleEdit: function() {
+        dynamicButton = 'update';
+    },
+    handleView: function() {
+        dynamicButton= 'revert';
+    },
+    handlePublish: function(){
+        dynamicButton = 'Publish';
+    },
     render: function() {
         return (
             <div>
-                <HomeNavbar />
-                <LandingPage />
+                <HomeNavbar onPublish={this.handlePublish} />
+                <LandingPage onClick={this.handleEdit} onView={this.handleView} />
                 <Footer />
             </div>
         );
@@ -26,7 +36,7 @@ const PageLayout = React.createClass({
             <div>
                  <PageNavbar />
                  <div className="container">
-                    <Sidebar />
+                    <Sidebar dynamicButton={dynamicButton}/>
                     <Editor />
                  </div>   
             </div>
