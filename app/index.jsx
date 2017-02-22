@@ -26,6 +26,7 @@ render((
         <IndexRoute component={UserSettings} />
         <IndexRoute component={UserMyapp} />
      </Route>
+
     </Route>
   </Router>
 ), document.getElementById('app'));

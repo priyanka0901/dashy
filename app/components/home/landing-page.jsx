@@ -16,6 +16,7 @@ const LandingPage= React.createClass({
             <div className="pure-g">
                 <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="landing-page__tile">
+
                     <Link to="/new">
                         <img onClick={this.props.onView} className="tile__image" src="../assets/images/3dbox.jpeg" />
                     </Link>
@@ -26,6 +27,8 @@ const LandingPage= React.createClass({
                     </div>
                     <div className="tile__options">
                         <Link to="/new" onClick={this.props.onClick}>Edit</Link>
+
+                        <Link to="/edit" className="options__edit">Edit</Link>
                         <ul className="tile__options_stats">
                             <li>
                                 <img src="../assets/images/views.svg" />
@@ -41,10 +44,10 @@ const LandingPage= React.createClass({
                             </li>
                         </ul>
                     </div>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
         );
     } 
 });
