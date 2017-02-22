@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import Profile from './profile.jsx';
 import {Link} from 'react-router';
 
 const PageNavbar = React.createClass({
@@ -31,12 +32,12 @@ const PageNavbar = React.createClass({
                     </li>
                     <li>
                         <img className ="navbar__icon" src="../assets/images/info.svg"/>
-                         <p>About </p>
+                         <p>About</p>
                     </li>
                     <li className="navbar__image">
-                        <a onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
-                            <img src="../assets/images/men.jpeg" />
-                        </a>
+                        <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
+                           <img src="../assets/images/men.jpeg" />
+                        </Link>
                     </li>
                 </ul>
             </div>   

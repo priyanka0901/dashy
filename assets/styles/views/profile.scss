@@ -1,0 +1,99 @@
+.profile{
+    background-color: $landing-page;
+    height: 100%;
+    width: 100%;
+}
+.profile__box{
+    height: 450px;
+    width: 70%;
+    margin:4% auto;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.profile__box_left{
+    width: 28%;
+    border-right:1px solid #eee;
+    height: 450px;
+    display: inline-block;
+}
+.profile__img{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+
+    img{
+        height:100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 20px auto 10px auto;
+    }
+    p{
+        font-size: 15px;
+        color:#333;
+        text-transform: capitalize;
+    }
+}
+.profile__options{
+
+    a{
+        color:#666;
+        line-height: 50px;
+        border-bottom: 1px solid #eee;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 600;
+        display: block;
+        letter-spacing: 0.3px;
+        padding: 0 20px;
+    }
+
+    :hover{
+        background-color: #f3f3f3;
+    }
+    :activer{
+        background-color: #f3f3f3;
+    }
+
+    i{
+      margin-right: 10px;
+    }
+}
+
+.profile__box_right{
+    height: 450px;
+    display: inline-block;
+    position: absolute;
+    padding: 30px 60px;
+}
+.user__menu{
+    margin-bottom: 25px;
+    p{
+        width: 150px;
+        display: inline-block;
+        text-transform: capitalize;
+    }
+    input, textarea{
+        line-height: 33px;
+        font-size: 14px;
+        width: 300px;
+        outline: none;
+    }
+}
+.menu__bio{
+    vertical-align: top;
+}
+.menu__submit{
+    background-color: $combo-color;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: $button-size;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 3px #eee;
+}
+.menu__submit:hover{
+     box-shadow: 7px 7px 5px #ccc;
+}
+
+

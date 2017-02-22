@@ -1,0 +1,47 @@
+/*----footer---------*/
+.footer{
+    background: $footer-color;
+    height: 100%;
+    padding:30px 0;
+    text-align: center;
+}
+.footer__logo{
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.logo__vr{
+    background-color:$combo-color;
+    padding: 0 5px;
+    border-radius: 2px;
+    margin-right: 8px;
+    color:#f1f1f1;
+}
+.footer__item{
+   
+    li{
+        display: inline-block;
+        padding:20px 40px;
+        text-transform: capitalize;
+        font-size: 14px;
+        color: #444;
+    }
+}
+.footer__item li:hover{
+    color:$combo-color;
+}
+.footer__social{
+    a{
+        display: inline-block;
+        padding: 0 15px;
+
+        i{
+           color:#666; 
+           font-size: 18px;
+        }
+        :hover{
+            color: #000;
+        }
+    }
+}

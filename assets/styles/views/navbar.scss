@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,16 +28,28 @@
         display: inline-block;
         padding-left: 50px;
         text-transform: uppercase;
+        font-size: 15px;
      }
 }
 .navbar__item p, .navbar__link{
     display: inline-block;
-    padding-bottom: 10px;
-     color:#333;
+    color:$link-color;
 }
+
 .navbar__item p:hover, .navbar__link:hover{
     border-bottom: 2px solid $combo-color;
     cursor: pointer;
+}
+.navbar__link_sign{
+    display: inline-block;
+    color:$link-color;
+    background-color: #f1f1f1;
+    padding: 3px 6px;
+    font-size:13px;
+    font-weight:600;
+}
+.navbar__link_sign:hover{
+    background-color: #f2f2f2;
 }
 .navbar__icon{
     width: 20px;

@@ -9,7 +9,10 @@ const LandingPage= React.createClass({
         return (
         <div className="landing-page">
             <p className="landing-page__heading">Collections</p>
-            <p className="landing-page__filter">Filter </p>
+            <div className="landing-page__filter">
+                <p><input type="radio" value="Most recent"  name="most"/>Most recent</p> 
+                <p><input type="radio" value="Most popular" name="most" />Most popular</p> 
+            </div>
             <div className="pure-g">
                 <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="landing-page__tile">
@@ -22,7 +25,7 @@ const LandingPage= React.createClass({
                         <p className="tile__username">Alen Paull</p>
                     </div>
                     <div className="tile__options">
-                        <p onClick={this.props.onClick}><Link to="/new">Edit</Link></p>
+                        <Link to="/new" onClick={this.props.onClick}>Edit</Link>
                         <ul className="tile__options_stats">
                             <li>
                                 <img src="../assets/images/views.svg" />

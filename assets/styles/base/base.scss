@@ -24,7 +24,14 @@ li{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
+
 }
 .container{
     width: 100%;
 }
+button{
+    outline: none;
+    border:none;
+}
+
