@@ -40,16 +40,27 @@
     border-bottom: 2px solid $combo-color;
     cursor: pointer;
 }
-.navbar__link_sign{
+.navbar__link_login{
     display: inline-block;
-    color:$link-color;
-    background-color: #f1f1f1;
-    padding: 3px 6px;
+    color:$combo-color;
+    padding: 5px 10px;
     font-size:13px;
     font-weight:600;
+    border:1px solid $combo-color;
+    border-radius: 2px;
 }
-.navbar__link_sign:hover{
-    background-color: #f2f2f2;
+.navbar__link_signup{
+    display: inline-block;
+    color:#fff;
+    padding: 6px 10px;
+    font-size:13px;
+    font-weight:600;
+    background-color: $combo-color;
+    border-radius: 2px;
+}
+.navbar__link_login:hover,
+.navbar__link_signup:hover{
+   box-shadow: 6px 6px 3px #eee;
 }
 .navbar__icon{
     width: 20px;

@@ -4,19 +4,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import {Link} from 'react-router';
 
-const LandingPage= React.createClass({
-        render: function() {
-        return (
-        <div className="landing-page">
-            <p className="landing-page__heading">Collections</p>
-            <div className="landing-page__filter">
-                <p><input type="radio" value="Most recent"  name="most"/>Most recent</p> 
-                <p><input type="radio" value="Most popular" name="most" />Most popular</p> 
-            </div>
-            <div className="pure-g">
-                <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
+const TileDisplay= React.createClass({
+    render:function(){
+        return(
+             <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="landing-page__tile">
-
                     <Link to="/new">
                         <img onClick={this.props.onView} className="tile__image" src="../assets/images/3dbox.jpeg" />
                     </Link>
@@ -44,10 +36,33 @@ const LandingPage= React.createClass({
                     </div>
                 </div>
             </div>
+        );
+    }
+});
+
+const LandingPage= React.createClass({
+        render: function() {
+        return (
+        <div className="landing-page">
+            <p className="landing-page__heading">Featured Apps</p>
+            <div className="landing-page__filter">
+                <p><input type="radio" value="Most recent"  name="most"/>Most recent</p> 
+                <p><input type="radio" value="Most popular" name="most" />Most popular</p> 
+            </div>
+            <div className="pure-g">
+               <TileDisplay />
+               <TileDisplay />
+               <TileDisplay />
+                <TileDisplay />
+                <TileDisplay />
+                <TileDisplay />
+                <TileDisplay />
+
         </div>
     </div>
         );
     } 
 });
 
-export default LandingPage;
+export {LandingPage, TileDisplay};
+

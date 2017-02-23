@@ -33,8 +33,10 @@ const Navbar= React.createClass({
                         <img className ="navbar__icon" src="../assets/images/info.svg"/>
                          <p>About</p>
                     </li>
-                    <li><Link to="" className="navbar__link_sign">Login </Link></li>
-                    <li><Link to="" className="navbar__link_sign">signup</Link></li>
+                    <li><Link to="" className="navbar__link_login">Login </Link></li>
+                    <li style={{paddingLeft:20}}>
+                        <Link to="" className="navbar__link_signup">signup</Link>
+                    </li>
                     <li className="navbar__image">
                         <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                            <img src="../assets/images/men.jpeg" />
@@ -51,6 +53,7 @@ const Navbar= React.createClass({
                     <li>Logout</li>
                 </ul>
             </div>
+            <p className="clear"></p>
         </div>
         );
     } 

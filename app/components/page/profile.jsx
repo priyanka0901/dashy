@@ -19,6 +19,10 @@ const UserSettings = React.createClass({
                         <input name="password" value="password" type="password" />
                     </div>
                     <div className="user__menu">
+                        <p>confirm password</p>
+                        <input name="password" value="password" type="password" />
+                    </div>
+                    <div className="user__menu">
                         <p className="menu__bio">bio</p>
                         <textarea name="bio" placeholder="write about yourself" rows="3" />
                     </div>
@@ -49,22 +53,27 @@ const Profile = React.createClass({
             <div className="profile">
                <Navbar />
                <div className="profile__box">
+               <div className="pure-g">
+               <div className="pure-u-lg-1-5">
                     <div className="profile__box_left">
                         <div className="profile__img">
                             <img src="../../assets/images/men.jpeg" />
                             <p>Alex Paull</p>
                         </div>
                         <div className="profile__options">
-                            <Link to="/profile/userprofile"><i className="fa fa-user fa-fw"></i>profile </Link>
+                            <Link to="/profile"><i className="fa fa-user fa-fw"></i>profile </Link>
                             <Link to="/profile/usermyapp"><i className="fa fa-code fa-fw"></i>my apps</Link> 
                             <Link to=""><i className="fa fa-cogs fa-fw"></i>settings </Link>
                             <Link to=""><i className="fa fa-lock fa-fw"></i>logout</Link>
                         </div>
                     </div>
-                    <div className="profile__box_right">
-                        <UserSettings />
-        
                     </div>
+                    <div className="pure-u-lg-4-5">
+                        <div className="profile__box_right">
+                             <UserSettings />
+                        </div>
+                    </div>
+               </div>
                </div>
                <Footer />
             </div>
