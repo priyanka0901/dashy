@@ -1,30 +1,29 @@
 'use strict';
 
 import React from 'react';
-import Profile from './profile.jsx';
 import {Link} from 'react-router';
 
-const PageNavbar = React.createClass({
-    getInitialState: function(){
-    return {display: "none"}
-  },
-  toggleHover: function(){
-    this.setState({display: "block"})
-  },
-  toggleHovered: function(){
-    this.setState({display: "none"})
-  },
-    render: function() {
+const Navbar= React.createClass({
+        getInitialState: function(){
+            return {display: "none"}
+    },
+        toggleHover: function(){
+         this.setState({display: "block"})
+    },
+        toggleHovered: function(){
+         this.setState({display: "none"})
+     },
+        render: function() {
         return (
             <div>
             <div className="navbar">
-                <p><Link to="/" className="navbar__logo"><span className="navbar__vr">vr</span> 
+                 <p ><Link to="/" className="navbar__logo"><span className="navbar__vr">vr</span> 
                      STUDI0 </Link>
                 </p>
                 <ul className="navbar__item">
                     <li>
-                        <img className ="navbar__icon" src="../assets/images/box.svg" />
-                       <p> Build </p>
+                        <img className="navbar__icon" src="../assets/images/newapp.svg" />
+                        <Link to="/new" className="navbar__link" onClick={this.props.onPublish}>new app</Link> 
                     </li>
                     <li>
                         <img className="navbar__icon"  src="../assets/images/search.svg"/>
@@ -34,14 +33,16 @@ const PageNavbar = React.createClass({
                         <img className ="navbar__icon" src="../assets/images/info.svg"/>
                          <p>About</p>
                     </li>
+                    <li><Link to="" className="navbar__link_sign">Login </Link></li>
+                    <li><Link to="" className="navbar__link_sign">signup</Link></li>
                     <li className="navbar__image">
                         <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                            <img src="../assets/images/men.jpeg" />
                         </Link>
                     </li>
                 </ul>
-            </div>   
-            <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
+                </div>
+                 <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                 <ul>
                     <li>Alex Pall</li>
                     <li>Profile</li>
@@ -49,10 +50,12 @@ const PageNavbar = React.createClass({
                     <li>Settings</li>
                     <li>Logout</li>
                 </ul>
-            </div> 
+            </div>
         </div>
-       );
-    }
+        );
+    } 
 });
 
-export default PageNavbar;
+export default Navbar;
+
+

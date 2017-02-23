@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     background-color:$landing-page;
-    padding: 30px 90px;
+    padding: 55px 90px;
 }
 
 .landing-page__heading {
@@ -90,12 +90,6 @@
         display: inline-block;
         vertical-align: -webkit-baseline-middle;
     }
-}
-.tile__options p{
-    display: inline-block;
-    position: relative;
-    bottom: 4px;
-    left: 5px;
 }
 .options__edit{
     color:$link-color;

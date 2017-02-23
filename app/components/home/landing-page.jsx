@@ -27,8 +27,6 @@ const LandingPage= React.createClass({
                     </div>
                     <div className="tile__options">
                         <Link to="/new" onClick={this.props.onClick}>Edit</Link>
-
-                        <Link to="/edit" className="options__edit">Edit</Link>
                         <ul className="tile__options_stats">
                             <li>
                                 <img src="../assets/images/views.svg" />

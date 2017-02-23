@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {Link} from 'react-router';
-import HomeNavbar from '../home/home-navbar.jsx';
+import Navbar from '../navbar.jsx';
 import Footer from '../home/footer.jsx';
 
 
@@ -47,7 +47,7 @@ const Profile = React.createClass({
     render:function(){
         return(
             <div className="profile">
-               <HomeNavbar />
+               <Navbar />
                <div className="profile__box">
                     <div className="profile__box_left">
                         <div className="profile__img">
