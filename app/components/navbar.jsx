@@ -2,6 +2,8 @@
 
 import React from 'react';
 import {Link} from 'react-router';
+import SignIn from './page/signin.jsx';
+import SignUp from './page/signup.jsx';
 
 const Navbar= React.createClass({
         getInitialState: function(){
@@ -18,7 +20,7 @@ const Navbar= React.createClass({
             <div>
             <div className="navbar">
                  <p ><Link to="/" className="navbar__logo"><span className="navbar__vr">vr</span> 
-                     STUDI0 </Link>
+                     STUDIO </Link>
                 </p>
                 <ul className="navbar__item">
                     <li>
@@ -33,19 +35,18 @@ const Navbar= React.createClass({
                         <img className ="navbar__icon" src="../assets/images/info.svg"/>
                          <p>About</p>
                     </li>
-                    <li><Link to="" className="navbar__link_login">Login </Link></li>
+                    <li>
+                        <Link to="/signin" className="navbar__link_login">Login </Link>
+                    </li>
                     <li style={{paddingLeft:20}}>
-                        <Link to="" className="navbar__link_signup">signup</Link>
+                        <Link to="/signup" className="navbar__link_signup">signup</Link>
                     </li>
                     <li className="navbar__image">
                         <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                            <img src="../assets/images/men.jpeg" />
                         </Link>
-                    </li>
-                </ul>
-                </div>
-                 <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
-                <ul>
+                    <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
+                    <ul>
                     <li>Alex Pall</li>
                     <li>Profile</li>
                     <li>My apps<span className="hidden-menu_digit">7</span></li>
@@ -53,6 +54,10 @@ const Navbar= React.createClass({
                     <li>Logout</li>
                 </ul>
             </div>
+                    </li>
+                </ul>
+                </div>
+                 
             <p className="clear"></p>
         </div>
         );

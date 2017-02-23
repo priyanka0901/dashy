@@ -61,7 +61,7 @@ const Profile = React.createClass({
                             <p>Alex Paull</p>
                         </div>
                         <div className="profile__options">
-                            <Link to="/profile"><i className="fa fa-user fa-fw"></i>profile </Link>
+                            <Link to="/profile/userinfo"><i className="fa fa-user fa-fw"></i>profile </Link>
                             <Link to="/profile/usermyapp"><i className="fa fa-code fa-fw"></i>my apps</Link> 
                             <Link to=""><i className="fa fa-cogs fa-fw"></i>settings </Link>
                             <Link to=""><i className="fa fa-lock fa-fw"></i>logout</Link>

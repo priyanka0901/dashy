@@ -8,6 +8,7 @@ import Footer from './home/footer.jsx';
 import Editor from './page/editor.jsx';
 import Sidebar from './page/sidebar.jsx';
 
+
 var dynamicButton = '';
 const HomeLayout = React.createClass({
     handleEdit: function() {

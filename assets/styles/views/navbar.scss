@@ -79,22 +79,21 @@
     color:#222;
 }
 .image__hidden-menu{
-    width: 170px;
-    float: right;
-    position: relative;
-    z-index: 5;
+    position: absolute;
+    z-index: 50;
+    width: 225px;
+    right: 0;
     margin-right: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     ul{
-        position: relative;
-        top: -20px; 
-        height: 150px;
-        padding-top: 30px;
+        background-color: #fff;
+        padding:15px 0;
         li{
             font-size: 14px;
             color:#666;
-            padding: 3px 10px;
+            padding: 3px 15px;
             cursor: pointer;
+             width: 225px;
         }
     }
 }
