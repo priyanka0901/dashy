@@ -29,11 +29,11 @@ const Navbar= React.createClass({
                     </li>
                     <li>
                         <img className="navbar__icon"  src="../assets/images/search.svg"/>
-                        <p>Explore </p>
+                        <Link to="" className="navbar__link">Explore </Link>
                     </li>
                     <li>
                         <img className ="navbar__icon" src="../assets/images/info.svg"/>
-                         <p>About</p>
+                         <Link to="/about" className="navbar__link">About</Link>
                     </li>
                     <li>
                         <Link to="/signin" className="navbar__link_login">Sign In </Link>

@@ -7,6 +7,7 @@ import {HomeLayout, PageLayout} from './components/homepage.jsx';
 import {Profile, UserSettings, UserMyapp, UserMyappLook} from './components/page/profile.jsx';
 import SignIn from './components/page/signin.jsx';
 import SignUp from './components/page/signup.jsx';
+import AboutPage from './components/page/about.jsx';
 
 const Layout = React.createClass({
     render: function() {
@@ -28,6 +29,7 @@ render((
       <IndexRoute component={UserSettings} />
       <Route path="usermyapp" component={UserMyapp, UserMyappLook} />
      </Route>
+     <Route path="/about" component={AboutPage} />
      <Route path="/signin" component={SignIn} />
      <Route path="/signup" component={SignUp} />
     </Route>

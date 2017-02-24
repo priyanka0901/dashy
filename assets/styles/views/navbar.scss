@@ -31,12 +31,12 @@
         font-size: 15px;
      }
 }
-.navbar__item p, .navbar__link{
+.navbar__link{
     display: inline-block;
     color:$link-color;
 }
 
-.navbar__item p:hover, .navbar__link:hover{
+.navbar__link:hover{
     border-bottom: 2px solid $combo-color;
     cursor: pointer;
 }
