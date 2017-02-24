@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {Link} from 'react-router';
+import SignIn from './signup.jsx';
 
 const SignUp=React.createClass({
     render:function(){
@@ -17,8 +18,10 @@ const SignUp=React.createClass({
                     <input className="sign__pass" type="password" name="password" placeholder="PASSWORD" />
                     <input className="sign__pass" type="password" name="password" placeholder="CONFIRM PASSWORD" />
                     <div className="sign__buttons">
-                            <Link to="" className="button_register">Sign In</Link>
-                            <Link to="" className="button_signin">Register</Link>
+                             <Link to="" className="button_signin">Sign Up</Link>
+                            <Link to="/signin" className="button_register">Sign In</Link>
+                              <p className="sign__account">Do you have account?</p> 
+                           
                     </div>
                     <p className="signin__or">or sign up with </p>
                         <div className="sign__socials">

@@ -8,6 +8,7 @@
     background-color: $landing-page;
 }
 .profile__box_left{
+    min-height: 650px;
     height: 100%;
     width: 100%;
     padding: 20px 0 10%;
@@ -46,10 +47,7 @@
     :hover{
         background-color: #fff;
     }
-    :activer{
-        background-color: #fff;
-    }
-
+  
     i{
       margin-right: 10px;
     }
@@ -57,8 +55,11 @@
 
 .profile__box_right{
     height: 100%;
-    padding: 5% 10%;
-    border-left :1px solid #ccc;
+    padding: 5% 5% 14%;
+     border-left:1px solid #ccc;
+}
+.profile__user_menu{
+    padding: 0 10%;
 }
 .user__menu{
     margin-bottom: 4%;
@@ -66,6 +67,7 @@
         width: 150px;
         display: inline-block;
         text-transform: capitalize;
+        color:#333;
     }
     input, textarea{
         line-height: 33px;
@@ -73,6 +75,9 @@
         width: 300px;
         outline: none;
         padding: 0 5px;
+        border:none;
+        border:1px solid #ccc;
+        border-radius: 2px;
     }
 }
 .menu__bio{
@@ -80,16 +85,38 @@
 }
 .menu__submit{
     background-color: $combo-color;
-    padding: 5px 10px;
+    padding: 9px 10px;
     color: #fff;
     font-size: $button-size;
     border-radius: 2px;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 4px 4px 3px #ccbebe;;
+    box-shadow: 4px 4px 3px #ccbebe;
+    position: relative;
+    top:15px;
 }
 .menu__submit:hover{
      box-shadow: 7px 7px 5px #ccc;
 }
 
+
+/*------usermyapp-----*/
+.profile-page__tile{
+    height: 275px;
+    width: 275px;
+    background: #fff;
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    margin: 20px 25px;
+}
+.profile__tile_img{
+     background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+}
+.profile__li_stats li{
+    padding: 0 5px !important;
+}
 

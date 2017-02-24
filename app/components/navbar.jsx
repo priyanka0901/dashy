@@ -36,23 +36,21 @@ const Navbar= React.createClass({
                          <p>About</p>
                     </li>
                     <li>
-                        <Link to="/signin" className="navbar__link_login">Login </Link>
+                        <Link to="/signin" className="navbar__link_login">Sign In </Link>
                     </li>
                     <li style={{paddingLeft:20}}>
-                        <Link to="/signup" className="navbar__link_signup">signup</Link>
+                        <Link to="/signup" className="navbar__link_signup">sign Up</Link>
                     </li>
                     <li className="navbar__image">
                         <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                            <img src="../assets/images/men.jpeg" />
                         </Link>
                     <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
-                    <ul>
-                    <li>Alex Pall</li>
-                    <li>Profile</li>
-                    <li>My apps<span className="hidden-menu_digit">7</span></li>
-                    <li>Settings</li>
-                    <li>Logout</li>
-                </ul>
+                    <Link to="/profile">Alex Pall</Link>
+                    <Link to="/profile">Profile</Link>
+                    <Link to="/profile/usermyapp">My apps<span className="hidden-menu_digit">6</span></Link>
+                    <Link to="">Settings</Link>
+                    <Link to="">Logout</Link>
             </div>
                     </li>
                 </ul>

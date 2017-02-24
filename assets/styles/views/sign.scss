@@ -47,6 +47,8 @@
 }
 .signin__forget{
     float: right;
+    border-bottom: 1px solid #aaa;
+    margin: 2px 0;
 }
 .sign__buttons{
     margin-top: 7%;
@@ -54,14 +56,16 @@
 .button_register{
     width: 40%;
     padding: 9px 10px;
-    border:1px solid #ccc;
+    border:1px solid $combo-color;
     display: inline-block;
-    color:#444;
+    color:$combo-color !important;
     text-transform: uppercase;
     text-align: center;
     border-radius: 4px;
     font-size: 12px;
     font-weight: 600;
+     float: right;
+     transition: 0.2s;
 }
 .button_signin{
     width: 40%;
@@ -72,12 +76,19 @@
     font-weight: 600;
     text-align: center;
     border-radius: 4px;
-    float: right;
     font-size: 12px;
     text-transform: uppercase;
+    transition: 0.2s;
 }
 .button_register:hover, .button_signin:hover{
     box-shadow: 8px 8px 6px #ddd;
+    transform: translate(0, -3px);
+}
+.sign__account{
+    float: right;
+    font-size: 11px;
+    color:#777;
+    margin: 3px 5px 0 0;
 }
 .signin__or{
     text-align: center;
@@ -106,6 +117,7 @@
 .sign__socials a img:hover{
     transform: translate(0, -4px);
 }
+
 
 /*-----signup-------*/
 .signup__box{

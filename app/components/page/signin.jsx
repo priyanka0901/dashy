@@ -19,8 +19,10 @@ const SignIn= React.createClass({
                         <Link to="">Keep me logged in</Link>
                         <Link to="" className="signin__forget">Forget email or password?</Link>
                         <div className="sign__buttons">
-                            <Link to="" className="button_register">Register</Link>
-                            <Link to="" className="button_signin">Sign In</Link>
+                             <Link to="" className="button_signin">Sign In</Link>
+                            <Link to="/signup" className="button_register">Sign Up</Link>
+                            <p className="sign__account">Don't have account?</p> 
+                           
                         </div>
                         <p className="signin__or">or sign in with </p>
                         <div className="sign__socials">

@@ -57,7 +57,6 @@ const LandingPage= React.createClass({
                 <TileDisplay />
                 <TileDisplay />
                 <TileDisplay />
-
         </div>
     </div>
         );

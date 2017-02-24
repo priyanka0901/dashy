@@ -2,14 +2,16 @@
 .footer{
     background: $footer-color;
     height: 100%;
-    padding:30px 0;
-    text-align: center;
+    padding:15px 0;
+    display: flex;
+    align-items: center;
 }
 .footer__logo{
-    text-align: center;
+    display: inline-block;
     width: 100px;
     margin: auto;
     text-transform: uppercase;
+    text-align: center;
 }
 .logo__vr{
     background-color:$combo-color;
@@ -19,26 +21,28 @@
     color:#f1f1f1;
 }
 .footer__item{
-   
+    display: inline-block;
     li{
         display: inline-block;
-        padding:20px 40px;
+        padding:20px;
         text-transform: capitalize;
-        font-size: 14px;
-        color: #444;
+        font-size: 13px;
+        color: #666;
     }
 }
 .footer__item li:hover{
     color:$combo-color;
 }
 .footer__social{
+  display: inline-block;
+
     a{
         display: inline-block;
         padding: 0 15px;
 
         i{
            color:#666; 
-           font-size: 18px;
+           font-size: 20px;
         }
         :hover{
             color: #000;
