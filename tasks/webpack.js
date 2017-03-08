@@ -12,7 +12,7 @@ var webpackConfig = {
     },
     output: {
         path: path.join(__dirname, '../', '.build/js/'),
-        publicPath: '.build/',
+        publicPath: 'build/',
         filename: '[name].bundle.js'
     },
     cache: true,
