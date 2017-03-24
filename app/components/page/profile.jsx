@@ -59,26 +59,26 @@ const UserMyapp = React.createClass({
                  <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="profile-page__tile">
                     <Link to="/new">
-                        <img className="profile__tile_img" src="../assets/images/3dbox.jpeg" />
+                        <img className="profile__tile_img" src="assets/images/3dbox.jpeg" />
                     </Link>
                     <div className="tile__appinfo">
                         <p className="tile__appname">webVr aframe</p>
-                        <img className="tile__username_img" src="../assets/images/men.jpeg" />
+                        <img className="tile__username_img" src="assets/images/men.jpeg" />
                         <p className="tile__username">Alen Paull</p>
                     </div>
                     <div className="tile__options">
                         <Link to="/new">Edit</Link>
                         <ul className="tile__options_stats profile__li_stats">
                             <li>
-                                <img src="../assets/images/views.svg" />
+                                <img src="assets/images/views.svg" />
                                 <p className="options__stats_num">4</p>
                             </li>
                             <li> 
-                                <img src="../assets/images/share.svg" />
+                                <img src="assets/images/share.svg" />
                                 <p className="options__stats_num">6</p>
                             </li>
                             <li> 
-                                <img src="../assets/images/likes.svg" />
+                                <img src="assets/images/likes.svg" />
                                 <p className="options__stats_num">12</p>
                             </li>
                         </ul>
@@ -99,7 +99,7 @@ const Profile = React.createClass({
                         <div className="pure-u-lg-1-5">
                             <div className="profile__box_left">
                                 <div className="profile__img">
-                                    <img src="../../assets/images/men.jpeg" />
+                                    <img src="assets/images/men.jpeg" />
                                     <p>Alex Paull</p>
                                 </div>
                                 <div className="profile__options">

@@ -24,15 +24,15 @@ const Navbar= React.createClass({
                 </p>
                 <ul className="navbar__item">
                     <li>
-                        <img className="navbar__icon" src="../assets/images/newapp.svg" />
+                        <img className="navbar__icon" src="assets/images/newapp.svg" />
                         <Link to="/new" className="navbar__link" onClick={this.props.onPublish}>new app</Link> 
                     </li>
                     <li>
-                        <img className="navbar__icon"  src="../assets/images/search.svg"/>
+                        <img className="navbar__icon"  src="assets/images/search.svg"/>
                         <Link to="" className="navbar__link">Explore </Link>
                     </li>
                     <li>
-                        <img className ="navbar__icon" src="../assets/images/info.svg"/>
+                        <img className ="navbar__icon" src="assets/images/info.svg"/>
                          <Link to="/about" className="navbar__link">About</Link>
                     </li>
                     <li>
@@ -43,7 +43,7 @@ const Navbar= React.createClass({
                     </li>
                     <li className="navbar__image">
                         <Link to="/profile" onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
-                           <img src="../assets/images/men.jpeg" />
+                           <img src="assets/images/men.jpeg" />
                         </Link>
                     <div className="image__hidden-menu" style={this.state} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHovered}>
                     <Link to="/profile">Alex Pall</Link>

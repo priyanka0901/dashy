@@ -10,26 +10,26 @@ const TileDisplay= React.createClass({
              <div className="pure-u-lg-1-3 pure-u-md-1-2 pure-u-sm-1">
                     <div className="landing-page__tile">
                     <Link to="/new">
-                        <img onClick={this.props.onView} className="tile__image" src="../assets/images/3dbox.jpeg" />
+                        <img onClick={this.props.onView} className="tile__image" src="assets/images/3dbox.jpeg" />
                     </Link>
                     <div className="tile__appinfo">
                         <p className="tile__appname">webVr aframe</p>
-                        <img className="tile__username_img" src="../assets/images/men.jpeg" />
+                        <img className="tile__username_img" src="assets/images/men.jpeg" />
                         <p className="tile__username">Alen Paull</p>
                     </div>
                     <div className="tile__options">
                         <Link to="/new" onClick={this.props.onClick}>Edit</Link>
                         <ul className="tile__options_stats">
                             <li>
-                                <img src="../assets/images/views.svg" />
+                                <img src="assets/images/views.svg" />
                                 <p className="options__stats_num">4</p>
                             </li>
                             <li> 
-                                <img src="../assets/images/share.svg" />
+                                <img src="assets/images/share.svg" />
                                 <p className="options__stats_num">6</p>
                             </li>
                             <li> 
-                                <img src="../assets/images/likes.svg" />
+                                <img src="assets/images/likes.svg" />
                                 <p className="options__stats_num">12</p>
                             </li>
                         </ul>

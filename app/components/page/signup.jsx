@@ -25,8 +25,8 @@ const SignUp=React.createClass({
                     </div>
                     <p className="signin__or">or sign up with </p>
                         <div className="sign__socials">
-                        <Link to=""><img src="../../assets/images/google.png"/></Link>
-                        <Link to=""><img src="../../assets/images/fb.png"/></Link>
+                        <Link to=""><img src="assets/images/google.png"/></Link>
+                        <Link to=""><img src="assets/images/fb.png"/></Link>
                         </div>
                 </div>
             </div>

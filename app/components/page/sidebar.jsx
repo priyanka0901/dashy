@@ -8,23 +8,23 @@ const Sidebar= React.createClass({
         <div className="sidebar">
             <ul className="sidebar__content">
                 <li>
-                    <p><img className="sidebar__img" src="../assets/images/newapp.svg" /></p>
+                    <p><img className="sidebar__img" src="assets/images/newapp.svg" /></p>
                         <h4>new app </h4>
                 </li>
                 <li>
-                    <p><img className="sidebar__img" src="../assets/images/publish.svg" /></p>
+                    <p><img className="sidebar__img" src="assets/images/publish.svg" /></p>
                         <h4>{this.props.dynamicButton}</h4>
                 </li>
                 <li>
-                    <p><img className="sidebar__img" src="../assets/images/share.svg" /></p>
+                    <p><img className="sidebar__img" src="assets/images/share.svg" /></p>
                         <h4>share</h4>
                 </li>
                 <li>
-                    <p><img className="sidebar__img" src="../assets/images/likes.svg" /></p>
+                    <p><img className="sidebar__img" src="assets/images/likes.svg" /></p>
                         <h4>10 likes</h4>
                 </li>
                 <li>
-                    <p><img className="sidebar__img" src="../assets/images/views.svg" /></p>
+                    <p><img className="sidebar__img" src="assets/images/views.svg" /></p>
                         <h4>20 views </h4>
                 </li>
             </ul>
