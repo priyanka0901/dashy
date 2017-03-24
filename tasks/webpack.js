@@ -11,7 +11,7 @@ var webpackConfig = {
         app: './app/index.jsx'
     },
     output: {
-        path: path.join(__dirname, '../', '.build/js/'),
+        path: path.join(__dirname, '../', 'build/js/'),
         publicPath: 'build/',
         filename: '[name].bundle.js'
     },

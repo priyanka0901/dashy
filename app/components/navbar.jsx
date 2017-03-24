@@ -20,7 +20,7 @@ const Navbar= React.createClass({
             <div>
             <div className="navbar">
                  <p ><Link to="/" className="navbar__logo"><span className="navbar__vr">vr</span> 
-                     STUDIO </Link>
+                     Dashy </Link>
                 </p>
                 <ul className="navbar__item">
                     <li>

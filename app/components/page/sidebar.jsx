@@ -30,7 +30,7 @@ const Sidebar= React.createClass({
             </ul>
             <p className="sidebar__bottom_line"></p>
             <p className="sidebar__copyright"> &#169; 2017 
-                <span className="sidebar__camp"> Camp K12</span>
+                <span className="sidebar__camp">Vr Dashy</span>
             </p>
         
         </div>

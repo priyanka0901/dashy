@@ -12,7 +12,7 @@ const Footer= React.createClass({
                     <Link to=""><i className="fa fa-twitter fa-fw"></i></Link>
                     <Link to=""><i className="fa fa-github fa-fw"></i></Link>
                 </div>
-                <Link to="/" className="footer__logo"><span className="logo__vr"> Vr </span>Studio</Link>
+                <Link to="/" className="footer__logo"><span className="logo__vr"> Vr </span>Dashy</Link>
                 <ul className="footer__item">
                     <li>About us</li>
                     <li>terms & conditiions </li>
