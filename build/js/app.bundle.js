@@ -26683,7 +26683,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'li',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'navbar__icon', src: '../assets/images/newapp.svg' }),
+	                        _react2.default.createElement('img', { className: 'navbar__icon', src: 'assets/images/newapp.svg' }),
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '/new', className: 'navbar__link', onClick: this.props.onPublish },
@@ -26693,7 +26693,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'li',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'navbar__icon', src: '../assets/images/search.svg' }),
+	                        _react2.default.createElement('img', { className: 'navbar__icon', src: 'assets/images/search.svg' }),
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '', className: 'navbar__link' },
@@ -26703,7 +26703,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'li',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'navbar__icon', src: '../assets/images/info.svg' }),
+	                        _react2.default.createElement('img', { className: 'navbar__icon', src: 'assets/images/info.svg' }),
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '/about', className: 'navbar__link' },
@@ -26734,7 +26734,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '/profile', onMouseEnter: this.toggleHover, onMouseLeave: this.toggleHovered },
-	                            _react2.default.createElement('img', { src: '../assets/images/men.jpeg' })
+	                            _react2.default.createElement('img', { src: 'assets/images/men.jpeg' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'div',
@@ -26868,12 +26868,12 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '' },
-	                            _react2.default.createElement('img', { src: '../../assets/images/google.png' })
+	                            _react2.default.createElement('img', { src: 'assets/images/google.png' })
 	                        ),
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '' },
-	                            _react2.default.createElement('img', { src: '../../assets/images/fb.png' })
+	                            _react2.default.createElement('img', { src: 'assets/images/fb.png' })
 	                        )
 	                    )
 	                )
@@ -26962,12 +26962,12 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '' },
-	                            _react2.default.createElement('img', { src: '../../assets/images/google.png' })
+	                            _react2.default.createElement('img', { src: 'assets/images/google.png' })
 	                        ),
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
 	                            { to: '' },
-	                            _react2.default.createElement('img', { src: '../../assets/images/fb.png' })
+	                            _react2.default.createElement('img', { src: 'assets/images/fb.png' })
 	                        )
 	                    )
 	                )
@@ -27012,7 +27012,7 @@ webpackJsonp([0],[
 	                _react2.default.createElement(
 	                    _reactRouter.Link,
 	                    { to: '/new' },
-	                    _react2.default.createElement('img', { onClick: this.props.onView, className: 'tile__image', src: '../assets/images/3dbox.jpeg' })
+	                    _react2.default.createElement('img', { onClick: this.props.onView, className: 'tile__image', src: 'assets/images/3dbox.jpeg' })
 	                ),
 	                _react2.default.createElement(
 	                    'div',
@@ -27022,7 +27022,7 @@ webpackJsonp([0],[
 	                        { className: 'tile__appname' },
 	                        'webVr aframe'
 	                    ),
-	                    _react2.default.createElement('img', { className: 'tile__username_img', src: '../assets/images/men.jpeg' }),
+	                    _react2.default.createElement('img', { className: 'tile__username_img', src: 'assets/images/men.jpeg' }),
 	                    _react2.default.createElement(
 	                        'p',
 	                        { className: 'tile__username' },
@@ -27043,7 +27043,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/views.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/views.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27053,7 +27053,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/share.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/share.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27063,7 +27063,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/likes.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/likes.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27307,7 +27307,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'sidebar__img', src: '../assets/images/newapp.svg' })
+	                        _react2.default.createElement('img', { className: 'sidebar__img', src: 'assets/images/newapp.svg' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
@@ -27321,7 +27321,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'sidebar__img', src: '../assets/images/publish.svg' })
+	                        _react2.default.createElement('img', { className: 'sidebar__img', src: 'assets/images/publish.svg' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
@@ -27335,7 +27335,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'sidebar__img', src: '../assets/images/share.svg' })
+	                        _react2.default.createElement('img', { className: 'sidebar__img', src: 'assets/images/share.svg' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
@@ -27349,7 +27349,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'sidebar__img', src: '../assets/images/likes.svg' })
+	                        _react2.default.createElement('img', { className: 'sidebar__img', src: 'assets/images/likes.svg' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
@@ -27363,7 +27363,7 @@ webpackJsonp([0],[
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        _react2.default.createElement('img', { className: 'sidebar__img', src: '../assets/images/views.svg' })
+	                        _react2.default.createElement('img', { className: 'sidebar__img', src: 'assets/images/views.svg' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
@@ -27515,7 +27515,7 @@ webpackJsonp([0],[
 	                _react2.default.createElement(
 	                    _reactRouter.Link,
 	                    { to: '/new' },
-	                    _react2.default.createElement('img', { className: 'profile__tile_img', src: '../assets/images/3dbox.jpeg' })
+	                    _react2.default.createElement('img', { className: 'profile__tile_img', src: 'assets/images/3dbox.jpeg' })
 	                ),
 	                _react2.default.createElement(
 	                    'div',
@@ -27525,7 +27525,7 @@ webpackJsonp([0],[
 	                        { className: 'tile__appname' },
 	                        'webVr aframe'
 	                    ),
-	                    _react2.default.createElement('img', { className: 'tile__username_img', src: '../assets/images/men.jpeg' }),
+	                    _react2.default.createElement('img', { className: 'tile__username_img', src: 'assets/images/men.jpeg' }),
 	                    _react2.default.createElement(
 	                        'p',
 	                        { className: 'tile__username' },
@@ -27546,7 +27546,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/views.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/views.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27556,7 +27556,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/share.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/share.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27566,7 +27566,7 @@ webpackJsonp([0],[
 	                        _react2.default.createElement(
 	                            'li',
 	                            null,
-	                            _react2.default.createElement('img', { src: '../assets/images/likes.svg' }),
+	                            _react2.default.createElement('img', { src: 'assets/images/likes.svg' }),
 	                            _react2.default.createElement(
 	                                'p',
 	                                { className: 'options__stats_num' },
@@ -27603,7 +27603,7 @@ webpackJsonp([0],[
 	                            _react2.default.createElement(
 	                                'div',
 	                                { className: 'profile__img' },
-	                                _react2.default.createElement('img', { src: '../../assets/images/men.jpeg' }),
+	                                _react2.default.createElement('img', { src: 'assets/images/men.jpeg' }),
 	                                _react2.default.createElement(
 	                                    'p',
 	                                    null,
